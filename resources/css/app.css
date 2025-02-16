@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* $fa-font-path:'~fontawesome/webfont';
+@import '~fontawesome/css/fontawesome';
+@import '~fontawesome/css/brands';
+@import '~fontawesome/css/regular';
+@import '~fontawesome/css/solid'; */
+@import url('/node_modules/@fortawesome/fontawesome-free/css/all.min.css');
