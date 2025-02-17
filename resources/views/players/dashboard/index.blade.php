@@ -43,8 +43,8 @@
     {{-- end slider  --}}
     {{-- Card info --}}
     <div class="bg-fe-secondary mx-4 rounded-lg relative -mt-20 z-10 shadow-lg">
-        <div class="grid grid-cols-2 gap-4 p-5">
-            <div class="">
+        <div class="grid grid-cols-12 gap-4 p-5">
+            <div class="col-span-8">
                 <div class="grid grid-cols-4">
                     <div class="my-auto">
                         <img src="{{ asset('img-fe/maskot.png') }}"
@@ -56,40 +56,39 @@
                     </div>
                 </div>
             </div>
-            <div class="my-auto">
+            <div class="col-span-4">
                 <h1 class="text-end font-bold text-2xl text-white my-auto">ELITE</h1>
             </div>
-            <div class="col-span-2">
+            <div class="col-span-12">
                 <h1 class="border-b-2 border-fe-primary"></h1>
             </div>
-            <div class="border-r-2 border-white">
+            <div class="col-span-6 border-r-2 border-white">
                 <h1 class="text-start font-bold text-sm text-white my-auto">Jadwal Latihan</h1>
                 <h1 class="text-start font-bold text-xs text-white my-auto">Senin | Selasa | Sabtu</h1>
             </div>
-            <div class="my-auto">
-                <div class="grid grid-cols-4">
-                    <div class="my-auto">
-                        <div class="flex">
-                            <i class="fa-solid fa-medal text-fe-accent text-2xl my-auto"></i>
-                            <div class="text-sm text-white font-medium mx-2">
-                                <p>108</p>
-                                <p>point</p>
-                            </div>
-                            <i class="fa-solid fa-ranking-star text-fe-accent text-2xl my-auto"></i>
-                            <div class="text-sm text-white font-medium mx-2">
-                                <p>108</p>
-                                <p>point</p>
-                            </div>
-                            <div class="text-sm text-white font-medium">
-                                <p>3</p>
-                                <p>Level</p>
-                            </div>
-                        </div>
+            <div class="col-span-6 my-auto">
+                <div class="grid grid-cols-4 items-center gap-2">
+                    <!-- Medal Section -->
+                    <div class="flex items-center justify-center">
+                        <i class="fa-solid fa-medal text-fe-accent text-2xl"></i>
                     </div>
-                    <div class="">
+                    <div class="text-sm text-white font-medium text-center">
+                        <p>108</p>
+                        <p>Point</p>
                     </div>
+
+                    <!-- Rank Section -->
+                    <div class="flex items-center justify-center">
+                        <i class="fa-solid fa-ranking-star text-fe-accent text-2xl"></i>
+                    </div>
+                    <div class="text-sm text-white font-medium text-center">
+                        <p>7</p>
+                        <p>Rank</p>
+                    </div>
+
                 </div>
             </div>
+
         </div>
     </div>
     {{-- end card info --}}
@@ -99,7 +98,7 @@
         <a href="/games">
             <div class="flex flex-col items-center">
                 <i
-                    class="fa-solid fa-basketball text-fe-accent text-4xl bg-white p-5 rounded-full shadow-sm shadow-gray-600 w-14 h-14 flex items-center justify-center">
+                    class="fa-solid fa-basketball text-fe-accent text-xl bg-white p-5 rounded-full shadow-sm shadow-gray-600 w-14 h-14 flex items-center justify-center">
                 </i>
                 <h2 class="text-center text-fe-secondary font-bold text-lg">All Game</h2>
             </div>
@@ -107,21 +106,21 @@
         <a href="/my-games">
             <div class="flex flex-col items-center">
                 <i
-                    class="fa-solid fa-chart-simple text-fe-accent text-4xl bg-white p-5 rounded-full shadow-sm shadow-gray-600 w-14 h-14 flex items-center justify-center"></i>
+                    class="fa-solid fa-chart-simple text-fe-accent text-xl bg-white p-5 rounded-full shadow-sm shadow-gray-600 w-14 h-14 flex items-center justify-center"></i>
                 <h2 class="text-center text-fe-secondary font-bold text-lg">My Game</h2>
             </div>
         </a>
         <a href="/info">
             <div class="flex flex-col items-center">
                 <i
-                    class="fa-solid fa-info text-fe-accent text-4xl bg-white p-5 rounded-full shadow-sm shadow-gray-600 w-14 h-14 flex items-center justify-center"></i>
+                    class="fa-solid fa-info text-fe-accent text-xl bg-white p-5 rounded-full shadow-sm shadow-gray-600 w-14 h-14 flex items-center justify-center"></i>
                 <h2 class="text-center text-fe-secondary font-bold text-lg">Info</h2>
             </div>
         </a>
         <a href="/leaderboard">
             <div class="flex flex-col items-center">
                 <i
-                    class="fa-solid fa-ranking-star text-fe-accent text-4xl bg-white p-5 rounded-full shadow-sm shadow-gray-600 w-14 h-14 flex items-center justify-center"></i>
+                    class="fa-solid fa-ranking-star text-fe-accent text-xl bg-white p-5 rounded-full shadow-sm shadow-gray-600 w-14 h-14 flex items-center justify-center"></i>
                 <h2 class="text-center text-fe-secondary font-bold text-lg">Leaderboard</h2>
             </div>
         </a>

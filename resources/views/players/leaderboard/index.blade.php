@@ -24,11 +24,63 @@
         </form>
         {{-- end search  --}}
 
+        {{-- Top 3 Rank  --}}
+        <div class="bg-white">
+            <h1 class="bg-fe-secondary text-white text-center font-bold p-2">Leaderboard Elite Putra</h1>
+            <div class="grid grid-cols-3 mx-2">
+                <div class="mt-10">
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-5 h-5 mb-1 rounded-full shadow-lg" src="{{ asset('img-fe/badges.png') }}"
+                            alt="Bonnie image" />
+                        <img class="w-14 h-14 mb-3 rounded-full shadow-lg" src="{{ asset('img-fe/dasa.jpg') }}"
+                            alt="Bonnie image" />
+                        <h5 class="text-[12px] font-bold text-fe-secondary line-clamp-1">Dasa March Lairlaku</h5>
+                        <span class="text-[12px] font-bold  text-fe-accent ">106 Point</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-5 h-5 mb-1 rounded-full shadow-lg" src="{{ asset('img-fe/badges.png') }}"
+                            alt="Bonnie image" />
+                        <img class="w-14 h-14 mb-3 rounded-full shadow-lg" src="{{ asset('img-fe/dasa.jpg') }}"
+                            alt="Bonnie image" />
+                        <h5 class="text-[12px] font-bold text-fe-secondary line-clamp-1">Dasa March Lairlaku</h5>
+                        <span class="text-[12px] font-bold  text-fe-accent ">106 Point</span>
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-5 h-5 mb-1 rounded-full shadow-lg" src="{{ asset('img-fe/badges.png') }}"
+                            alt="Bonnie image" />
+                        <img class="w-14 h-14 mb-3 rounded-full shadow-lg" src="{{ asset('img-fe/dasa.jpg') }}"
+                            alt="Bonnie image" />
+                        <h5 class="text-[12px] font-bold text-fe-secondary line-clamp-1">Dasa March Lairlaku</h5>
+                        <span class="text-[12px] font-bold  text-fe-accent ">106 Point</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- End Top 3 Rank  --}}
         {{-- card --}}
         <a href="">
             <div class="grid grid-cols-12 mx-2 p-4 bg-white shadow-sm shadow-gray-600 rounded-lg">
                 <div class="col-span-2">
-                    <img src="{{ asset('img-fe/dasa.png') }}" class="w-10 h-auto mx-auto rounded-full bg-fe-accent"
+                    <img src="{{ asset('img-fe/dasa.jpg') }}" class="w-10 h-10 mx-auto rounded-full bg-fe-accent"
+                        alt="">
+                </div>
+                <div class="col-span-6 my-auto">
+                    <p class="text-sm text-start">Dasa March Lairlaku</p>
+                </div>
+                <div class="col-span-4 my-auto">
+                    <p class="text-sm text-end text-fe-accent font-semibold">106 Point</p>
+                </div>
+
+            </div>
+        </a>
+        <a href="">
+            <div class="grid grid-cols-12 mx-2 p-4 bg-white shadow-sm shadow-gray-600 rounded-lg">
+                <div class="col-span-2">
+                    <img src="{{ asset('img-fe/dasa.jpg') }}" class="w-10 h-10 mx-auto rounded-full bg-fe-accent"
                         alt="">
                 </div>
                 <div class="col-span-6 my-auto">
