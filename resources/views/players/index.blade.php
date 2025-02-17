@@ -15,7 +15,7 @@
     @yield('style')
 </head>
 
-<body class="font-sans antialiased bg-white ">
+<body class="font-sans antialiased bg-fe-primary ">
     @include('players.partials.navigation')
     @yield('script')
 </body>
