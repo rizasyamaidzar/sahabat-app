@@ -5,10 +5,10 @@
         <h1 class="mt-10 text-fe-secondary font-bold text-xl">Leaderboard Sahabat Ponorogo</h1>
         {{-- search  --}}
         <form class="max-w-sm mx-auto my-2">
-            <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 ">Select Program</label>
+            <label for="countries" class="block mb-2 text-sm font-medium text-gray-900">Select Program</label>
             <div class="flex justify-between">
                 <select id="countries"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5">
                     <option selected>Choose a program</option>
                     <option value="US">Elite</option>
                     <option value="FR">Starter</option>
@@ -17,11 +17,12 @@
                     <option value="DE">Pre-Hoops</option>
                 </select>
 
-                <button class="mx-4 bg-fe-secondary p-4 rounded-md" type="submit">
+                <button class="mx-4 bg-fe-secondary p-2 rounded-md" type="submit">
                     <i class="fa-solid fa-magnifying-glass text-white text-xl"></i>
                 </button>
             </div>
         </form>
+
         {{-- end search  --}}
 
         {{-- Top 3 Rank  --}}

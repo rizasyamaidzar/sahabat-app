@@ -14,7 +14,6 @@
             </a>
             <h1 class="font-semibold text-lg">Elite</h1>
         </div>
-
         <!-- Profile Section -->
         <div class="relative flex flex-col items-center z-10">
             <!-- Background Blur for Profile -->
