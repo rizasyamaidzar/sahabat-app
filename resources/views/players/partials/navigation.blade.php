@@ -3,7 +3,7 @@
     <div class="grid h-full max-w-sm grid-cols-5 mx-auto">
         <button data-tooltip-target="tooltip-home" type="button"
             class="inline-flex flex-col items-center justify-center px-5 rounded-full hover:bg-gray-50
-            {{ Request::is('dashboard') ? 'bg-blue-100 text-blue-600' : 'text-gray-500' }}">
+            {{ Request::is('dashboard*') ? 'bg-blue-100 text-blue-600' : 'text-gray-500' }}">
             <a href="/dashboard">
                 <i class="fa-solid fa-home w-5 h-5">
                 </i>
@@ -12,7 +12,7 @@
         </button>
         <button data-tooltip-target="tooltip-games" type="button"
             class="inline-flex flex-col items-center justify-center px-5 rounded-full hover:bg-gray-50
-            {{ Request::is('games') ? 'bg-blue-100 text-blue-600' : 'text-gray-500' }}">
+            {{ Request::is('games*') ? 'bg-blue-100 text-blue-600' : 'text-gray-500' }}">
             <a href="/games">
                 <i class="fa-solid fa-basketball w-5 h-5">
                 </i>
@@ -21,7 +21,7 @@
         </button>
         <button data-tooltip-target="tooltip-leaderboard" type="button"
             class="inline-flex flex-col items-center justify-center px-5 rounded-full hover:bg-gray-50
-            {{ Request::is('leaderboard') ? 'bg-blue-100 text-blue-600' : 'text-gray-500' }}">
+            {{ Request::is('leaderboard*') ? 'bg-blue-100 text-blue-600' : 'text-gray-500' }}">
             <a href="/leaderboard">
                 <i class="fa-solid fa-medal w-5 h-5">
                 </i>
@@ -30,7 +30,7 @@
         </button>
         <button data-tooltip-target="tooltip-my-games" type="button"
             class="inline-flex flex-col items-center justify-center px-5 rounded-full hover:bg-gray-50
-            {{ Request::is('my-games') ? 'bg-blue-100 text-blue-600' : 'text-gray-500' }}">
+            {{ Request::is('my-games*') ? 'bg-blue-100 text-blue-600' : 'text-gray-500' }}">
             <a href="/my-games">
                 <i class="fa-solid fa-chart-simple w-5 h-5">
                 </i>

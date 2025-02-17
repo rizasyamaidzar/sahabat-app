@@ -17,6 +17,9 @@ Route::get('/my-games', function () {
 Route::get('/leaderboard', function () {
     return view('players.leaderboard.index');
 });
+Route::get('/leaderboard/{id}', function () {
+    return view('players.leaderboard.show');
+});
 Route::get('/info', function () {
     return view('players.dashboard.index');
 });
