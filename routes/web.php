@@ -27,5 +27,5 @@ Route::get('/info', function () {
     return view('players.pages.dashboard.index');
 });
 Route::get('/profile', function () {
-    return view('players.pages.dashboard.index');
+    return view('players.pages.profile.index');
 });

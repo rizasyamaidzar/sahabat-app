@@ -272,7 +272,7 @@
                 <div class="relative bg-white rounded-lg shadow-sm">
                     <!-- Modal header -->
                     <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                        <h3 class="text-xl font-semibold text-gray-900 ">
                             Sign in to our platform
                         </h3>
                         <button type="button"
@@ -319,5 +319,42 @@
             </div>
         </div>
         {{-- end button ulasan  --}}
+
+        <div class="bg-white rounded-lg shadow-sm shadow-gray-600 p-5 mb-2">
+            <p class="text-sm text-fe-secondary font-bold">Apakah kamu merasa sudah memberikan usaha 100% di
+                lapangan?
+            </p>
+            <p class="text-sm text-fe-secondary">Saya merasa ada beberapa hal yang masih bisa saya tingkatkan, seperti
+                komunikasi atau strategi tertentu di lapangan. Ke depannya, saya akan lebih berusaha untuk mengatasi itu
+                agar bisa memberikan usaha 100%.</p>
+        </div>
+        <div class="bg-fe-accent rounded-lg shadow-sm shadow-gray-600 p-5 mb-40">
+            <p class="text-white font-bold text-xl">Catatan Coach
+            </p>
+            <p class="text-sm text-white">kamu sudah menunjukkan dedikasi yang baik di lapangan. Namun, selalu ada
+                ruang untuk berkembang, terutama dalam konsistensi permainan dan menjaga fokus. Saya harap di
+                pertandingan berikutnya, kamu bisa lebih percaya diri dalam mengambil keputusan dan tetap menjaga
+                semangat hingga akhir</p>
+        </div>
+
+
+        <div id="marketing-banner" tabindex="-1"
+            class="fixed z-50 flex flex-col justify-between w-[calc(100%-2rem)] p-4 -translate-x-1/2 bg-white border border-gray-100 rounded-lg shadow-xs left-1/2 top-6">
+            <div class="flex flex-col mb-3 me-4 items-center md:mb-0">
+                <a href="https://flowbite.com/" class="flex items-center mb-2 border-gray-200">
+                    <img src="{{ asset('img-fe/arya.png') }}" class="h-40 me-2" alt="Flowbite Logo">
+                </a>
+                <p class="flex items-center text-lg font-normal text-fe-secondary ">Selamat Point Anda Bertambah</p>
+                <p class="flex items-center text-4xl my-2 font-bold text-fe-secondary mx-auto">50</p>
+            </div>
+            <div class="text-center w-full">
+                <button data-dismiss-target="#marketing-banner" type="button">
+                    <p class="bg-fe-accent p-2 mx-auto text-white rounded-md">Close</p>
+                </button>
+            </div>
+
+        </div>
+
+
     </section>
 </div>
