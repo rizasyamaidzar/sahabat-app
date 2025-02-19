@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('players.login');
+    return view('login');
 });
 Route::get('/dashboard', function () {
     return view('players.pages.dashboard.index');
@@ -28,4 +28,9 @@ Route::get('/info', function () {
 });
 Route::get('/profile', function () {
     return view('players.pages.profile.index');
+});
+
+
+Route::get('/coach.dashboard', function () {
+    return view('coach.pages.dashboard.index');
 });

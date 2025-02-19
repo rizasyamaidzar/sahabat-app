@@ -70,9 +70,13 @@
                             placeholder="56 KG" readonly />
                     </div>
                 </div>
-                <button class="bg-fe-accent p-2 rounded-lg w-full my-2 mb-40 text-white">Update</button>
+                <button class="bg-fe-accent p-2 rounded-lg w-full my-2 text-white">Update</button>
             </div>
+    </form>
 
-        </section>
+    <button
+        class="border-2 border-fe-secondary hover:border-fe-accent hover:bg-fe-secondary hover:text-white p-2 rounded-lg w-full my-2 mb-40 text-fe-accent">
+        <i class="fa-solid fa-sign-out mx-2"></i>Log
+        Out</button>
+    </section>
 </div>
-</form>
