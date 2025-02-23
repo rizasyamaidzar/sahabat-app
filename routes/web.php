@@ -34,3 +34,6 @@ Route::get('/profile', function () {
 Route::get('/coach.dashboard', function () {
     return view('coach.pages.dashboard.index');
 });
+Route::get('/coach.programs', function () {
+    return view('coach.pages.program.index');
+});

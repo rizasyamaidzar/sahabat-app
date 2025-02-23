@@ -17,7 +17,6 @@
 
 <body class="font-sans antialiased bg-fe-primary ">
     @include('coach.partials.sidebar')
-
     @yield('script')
 </body>
 
