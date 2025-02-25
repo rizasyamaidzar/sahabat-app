@@ -32,12 +32,12 @@
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-DDwlhx7e.css",
+    "file": "assets/app-iiR5GpBG.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-Bjf-7ZqH.js",
+    "file": "assets/app-Dvdk0jPn.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
