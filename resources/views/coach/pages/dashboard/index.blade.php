@@ -1,7 +1,8 @@
 @extends('coach.index')
 @section('links')
     {{-- <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet"> --}}
-    @vite(['resources/css/dataTable.css'])
+    {{-- @vite(['resources/css/dataTable.css']) --}}
+    <link rel="stylesheet" href="{{ asset('css/dataTable.css') }}">
 @endsection
 @section('content')
     <div class="bg-white rounded-lg  p-8 sm:p-16">
