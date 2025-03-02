@@ -74,9 +74,14 @@
             </div>
     </form>
 
-    <button
-        class="border-2 border-fe-secondary hover:border-fe-accent hover:bg-fe-secondary hover:text-white p-2 rounded-lg w-full my-2 mb-40 text-fe-accent">
-        <i class="fa-solid fa-sign-out mx-2"></i>Log
-        Out</button>
+    <form action="/logout" method="post">
+        @csrf
+
+
+        <button type="submit"
+            class="border-2 border-fe-secondary hover:border-fe-accent hover:bg-fe-secondary hover:text-white p-2 rounded-lg w-full my-2 mb-40 text-fe-accent">
+            <i class="fa-solid fa-sign-out mx-2"></i>Log
+            Out</button>
+    </form>
     </section>
 </div>

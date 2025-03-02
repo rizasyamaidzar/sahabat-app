@@ -14,8 +14,8 @@
                 </a>
             </li>
             <li class="my-2">
-                <a href="#"
-                    class="flex items-center py-2 px-4 text-white rounded-lg hover:bg-blue-900 group  {{ Request::is('leaderboard*') ? 'bg-blue-700 text-blue-600' : 'text-gray-500' }}">
+                <a href="coach.leaderboard"
+                    class="flex items-center py-2 px-4 text-white rounded-lg hover:bg-blue-900 group  {{ Request::is('coach.leaderboard*') ? 'bg-blue-700 text-blue-600' : 'text-gray-500' }}">
                     <i class="fa-solid fa-ranking-star text-fe-accent text-lg"></i>
                     <span class="ms-2">Leaderboard</span>
                 </a>
@@ -75,7 +75,6 @@
 <div class="p-4 sm:ml-64">
     <div class="p-4 mt-14">
         @include('coach.partials.breadcumb')
-        <h1 class="text-fe-secondary font-bold text-2xl my-2">Dashboard</h1>
         <div class="border-2 border-gray-200 border-dashed rounded-lg p-2 mt-2">
 
             @yield('content')

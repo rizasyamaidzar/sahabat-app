@@ -20,18 +20,17 @@
     {{-- <h1 class="my-20"> tes</h1> --}}
     <div class="max-w-sm mx-auto bg-white rounded-lg p-10 mt-52">
         <h1 class="font-bold text-2xl my-5 text-fe-secondary text-center">Login</h1>
-        <form action="/dashboard" method="POST">
+        @if (session('error'))
+            @include('alerts.error')
+        @endif
+        <form action="/login" method="POST">
+            @csrf
             <div class="mb-5">
-                <label for="username" class="block mb-2 text-sm font-medium text-gray-900 ">Username</label>
-                <input type="text" id="username" name="username"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
-                    required />
+                <x-input field="username" label="Username" type="text" value="{{ old('username') }}"
+                    placeholder=""></x-input>
             </div>
             <div class="mb-5">
-                <label for="password" class="block mb-2 text-sm font-medium text-gray-900 ">Password</label>
-                <input type="password" id="password" name="password"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
-                    required />
+                <x-input field="password" label="Password" type="password" placeholder=""></x-input>
             </div>
             <button type="submit"
                 class="text-white bg-fe-secondary hover:bg-fe-secondary focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-full px-5 py-2.5 text-center ">Submit</button>
